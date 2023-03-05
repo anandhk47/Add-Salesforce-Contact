@@ -5,7 +5,7 @@ function getAccessToken() {
         mode: 'no-cors',
         credentials: 'include'
     })
-    .then((response) =>    response.json().then(data => console.log('Response: '+JSON.stringify(data))))
+    .then(data => console.log('Response: '+JSON.stringify(data)))
     .catch((error) =>    console.log('Response: '+JSON.stringify(error.json())));
 
 }
