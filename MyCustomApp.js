@@ -16,6 +16,7 @@ function getAccessToken() {
     headers.append('redirect_uri','https://anandhk47.github.io/Add-Salesforce-Contact/MyCustomApp.html');
     const init = {
         method: 'POST',
+        mode: 'no-cors',
         headers
     }
 
