@@ -22,6 +22,7 @@ function getAccessToken() {
     const init = {
         method: 'POST',
         mode: 'no-cors',
+        credentials: 'include',
         headers
     }
 
